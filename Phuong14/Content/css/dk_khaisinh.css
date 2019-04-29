@@ -1,0 +1,221 @@
+﻿@media print {
+    html, body {
+        padding: 0;
+        margin: 0;
+        font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+        font-size: 81.25%;
+    }
+
+    h2, h3, h4 {
+        text-align: center;
+    }
+
+    .main {
+        background: grey;
+    }
+
+    .formA4 {
+        width: 210mm;
+        padding: 10px 20px;
+        margin: 0 auto;
+        margin-top: -20px;
+        background: white;
+    }
+
+    .kg {
+        text-align: center;
+        font-size: 19px;
+    }
+
+    p span {
+        font-size: 18px;
+    }
+
+    .tieude {
+        font-weight: bold;
+    }
+
+    .ten {
+        padding: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .gt {
+        padding: 25px;
+    }
+
+    .gt1 {
+        padding: 15px;
+    }
+
+    .ttgiua {
+        padding: 140px;
+    }
+
+    .ttphai {
+        padding: 100px;
+    }
+
+    .canphai {
+        text-align: right;
+        padding-right: 60px;
+    }
+
+    .kyten {
+        text-align: right;
+        padding-right: 145px;
+    }
+
+    .Tenkyten {
+        text-align: right;
+        padding-right: 133px;
+    }
+
+    .canle {
+        padding-left: 40px;
+    }
+
+    .camdoan {
+        padding-right: 40px;
+    }
+
+    .banhanh {
+        text-align: right;
+        padding-right: 75px;
+    }
+
+    .mau {
+        text-align: right;
+        padding-right: 158px;
+    }
+
+    .doclap {
+        text-align: right;
+        padding-right: 130px;
+    }
+
+    hr {
+        margin-right: 146px;
+    }
+
+    .cantrai {
+        text-align: left;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .justify-content-between {
+        justify-content: space-between;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .title {
+        margin-bottom: 10px;
+    }
+
+    .sub-title {
+        margin-top: 0;
+    }
+
+    .line-title {
+        position: relative;
+        display: inline-block;
+    }
+
+        .line-title::after {
+            content: "";
+            position: absolute;
+            bottom: -12px;
+            left: 10%;
+            right: 0;
+            height: 0.5em;
+            border-top: 1px solid black;
+            width: 80%;
+        }
+
+    .size-small {
+        font-size: 14px;
+    }
+
+    .padd {
+        padding: 50px;
+    }
+
+    .padd1 {
+        padding: 150px;
+    }
+
+    .padd-a {
+        padding: 150px;
+    }
+
+    .padd-b {
+        padding: 104px;
+    }
+
+    .padd-c {
+        padding: 167px;
+    }
+
+    .padd-d {
+        padding: 199.5px;
+    }
+
+    .padd-e {
+        padding: 233.5px;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 4px;
+        text-align: center;
+    }
+
+    .margin-bottom {
+        margin-bottom: -10px;
+    }
+
+    .margin-bottom1 {
+        margin-bottom: 2px;
+    }
+
+    .margin-bottom2 {
+        margin-bottom: -16px;
+    }
+
+    .margin-top {
+        margin-top: 20px;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+    .padd-right {
+        padding-right: 100px;
+    }
+
+    .padd-right1 {
+        padding-right: 90px;
+    }
+
+    .padd-right2 {
+        padding-right: 30px;
+    }
+
+    input {
+        width: 19px;
+        height: 15px;
+        border: 1px solid black
+    }
+}
